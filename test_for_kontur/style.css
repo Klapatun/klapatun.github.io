@@ -1,0 +1,97 @@
+/*Общее*/
+body{
+    background: #1D3;
+}
+
+.left {
+    width: 25%;
+}
+
+.left p{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.right {
+    width: 75%;
+}
+
+/*Header*/
+.header{
+    background: #D13;
+    display: flex;
+}
+
+.photo{
+    width: 25%;
+    
+}
+
+.photo img{
+
+    width: 100%;
+}
+
+.info {
+    width: 75%;
+    margin-right: -50%;
+    text-align: center;
+}
+
+.info p{
+    text-align: center;
+    font-size: 60pt;  
+    line-height: 0;
+}
+
+.contacts {
+    background: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts p {
+    font-size: 27pt;
+    line-height: 0%;
+}
+
+.phone, .email {
+    position: relative;
+    bottom: 20pt;
+}
+
+/*Education*/
+
+.education{
+    background: #dddd00;
+    display: flex;
+
+    text-align: center;
+}
+
+.ed_institution p{
+    font-size: 16pt;
+}
+
+.ed_profile p{
+    font-size: 14pt;
+}
+
+/*
+.ed_right p{
+    font-size: 16pt;
+}
+*/
+.ed_year{
+    float: left;
+    font-size: 16pt;
+}
+
+
+/*Skills*/
+
+.skills {
+    display: flex;
+}
+
+
