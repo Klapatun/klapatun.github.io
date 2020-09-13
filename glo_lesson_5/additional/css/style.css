@@ -92,6 +92,9 @@ button:focus {
     line-height: 22px;
 }
 .customers-wrap {
+    margin-bottom: 111px;
+}
+.customers-wrap::after {
     content: '';
     display: table;
     clear: both;
@@ -99,12 +102,11 @@ button:focus {
 .customer-block {
     float: left;
     position: relative;
-    width: 261px;
-    height: 261px;
-    margin: 20px 16px;
+    overflow: hidden;
+    width: 25%;
+    height: 285px;
 }
 .customer-block img {
-    margin: 0;
     position: absolute;
-    clip: rect(0 261px 261px 0);
+    margin: 20px 16px;
 }
