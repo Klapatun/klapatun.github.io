@@ -3,11 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="resume">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/1.jpg" alt="photo" width="400px" height="390px">
+                
+                <h1 class="name">Клапатун Антон</h1>
+
+                <div class="contact">
+                    <h3>Тел.</h3>
+                    <p>8-999-999-99-99</p>
+                </div>
+                <div class="contact">
+                    <h3>E-mail</h3>
+                    <p>klapatun@mail.ru</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="information_block">
+                    <div class="information_block__name">
+                        <h2>Образование</h2>
+                    </div>
+                    <div class="information_block__content">
+                        <ul>
+                            <li>НАТК</li>
+                            <li>СибГУТИ</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information_block">
+                    <div class="information_block__name">
+                        <h2>Род деятельности</h2>
+                    </div>
+                    <div class="information_block__content">
+                        <ul>
+                            <li>Инженер-программист Embbanded-систем</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information_block">
+    
+                    <div class="information_block__name">
+                        <h2>Опыт программирования</h2>
+                    </div>
+                    <div class="information_block__content">
+                        <h3>Выполняемые задачи</h3>
+                        <ul>
+                            <li>Разработка ПО для коммуникационного оборудования энергосетей</li>
+                            <li>Поддержка и модернизация старых проектов (Assembler for avr / C)</li>
+                        </ul>
+                        <h3>Используемые языки программирования</h3>
+                        <ul>
+                            <li>С (с псевдо-ООП)</li>
+                            <li>Assembler for avr</li>
+                            <li>C# (Для разработки вспомогательных программ)</li>
+                        </ul>
+                        <h3>Используемые инструменты</h3>
+                        <ul>
+                            <li>FreeRTOS</li>
+                            <li>Make</li>
+                            <li>protothread</li>
+                            <li>Bootstrap</li>
+                            <li>Photoshop</li>
+                            <li>visual studio code</li>
+                            <li>Eclipce</li>
+                            <li>git</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information_block">
+                    <div class="information_block__name">
+                        <h2>Как обучаешься программированию</h2>
+                    </div>
+                    <div class="information_block__content">
+                        <ul>
+                            <li>stepic, curcera, you-tube каналы всякие вроде glo-academy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information_block">
+                    <div class="information_block__name">
+                        <h2>Увлечения и хобби</h2>
+                    </div>
+                    <div class="information_block__content">
+                        <ul>
+                            <li>музыка (сочиняю, исполняю, звукорежесирую)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="resume">
         <div class="left">
             <img src="img/1.jpg" alt="photo" width="400px" height="390px">
             
@@ -25,38 +120,77 @@
         </div>
         <div class="right">
             <div class="information_block">
-                <h2>Образование</h2>
-                <p>НАТК</p>
-                <p>СибГУТИ</p>
+                <div class="information_block__name">
+                    <h2>Образование</h2>
+                </div>
+                <div class="information_block__content">
+                    <ul>
+                        <li>НАТК</li>
+                        <li>СибГУТИ</li>
+                    </ul>
+                </div>
             </div>
             <div class="information_block">
-                <h2>Род деятельности</h2>
-                <p>Инженер-программист Embbanded-систем</p>
+                <div class="information_block__name">
+                    <h2>Род деятельности</h2>
+                </div>
+                <div class="information_block__content">
+                    <ul>
+                        <li>Инженер-программист Embbanded-систем</li>
+                    </ul>
+                </div>
             </div>
             <div class="information_block">
-                <h2>Опыт программирования</h2>
-                <h3>Выполняемые задачи</h3>
-                <p>Разработка ПО для коммуникационного оборудования энергосетей</p>
-                <p>Поддержка и модернизация старых проектов (Assembler for avr / C)</p>
-                <h3>Используемые языки программирования</h3>
-                <p>С (с псевдо-ООП)</p>
-                <p>Assembler for avr</p>
-                <p>C# (Для разработки вспомогательных программ)</p>
-                <h3>Используемые инструменты</h3>
-                <p>FreeRTOS</p>
-                <p>Make</p>
-                <p>protothread</p>
-                <p>Bootstrap</p>
-                <p>Photoshop</p>
-                <p>visual studio code</p>
-                <p>Eclipce</p>
-                <p>git</p>
-                <h3>Как обучаешься программированию</h3>
-                <p>stepic, curcera, you-tube каналы всякие вроде glo-academy</p>
-                <h3>Увлечения и хобби</h3>
-                <p>музыка (сочиняю, исполняю, звукорежесирую)</p>
+
+                <div class="information_block__name">
+                    <h2>Опыт программирования</h2>
+                </div>
+                <div class="information_block__content">
+                    <h3>Выполняемые задачи</h3>
+                    <ul>
+                        <li>Разработка ПО для коммуникационного оборудования энергосетей</li>
+                        <li>Поддержка и модернизация старых проектов (Assembler for avr / C)</li>
+                    </ul>
+                    <h3>Используемые языки программирования</h3>
+                    <ul>
+                        <li>С (с псевдо-ООП)</li>
+                        <li>Assembler for avr</li>
+                        <li>C# (Для разработки вспомогательных программ)</li>
+                    </ul>
+                    <h3>Используемые инструменты</h3>
+                    <ul>
+                        <li>FreeRTOS</li>
+                        <li>Make</li>
+                        <li>protothread</li>
+                        <li>Bootstrap</li>
+                        <li>Photoshop</li>
+                        <li>visual studio code</li>
+                        <li>Eclipce</li>
+                        <li>git</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information_block">
+                <div class="information_block__name">
+                    <h2>Как обучаешься программированию</h2>
+                </div>
+                <div class="information_block__content">
+                    <ul>
+                        <li>stepic, curcera, you-tube каналы всякие вроде glo-academy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information_block">
+                <div class="information_block__name">
+                    <h2>Увлечения и хобби</h2>
+                </div>
+                <div class="information_block__content">
+                    <ul>
+                        <li>музыка (сочиняю, исполняю, звукорежесирую)</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
