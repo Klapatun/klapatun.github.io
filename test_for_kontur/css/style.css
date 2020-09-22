@@ -7,14 +7,10 @@ body {
     background-color: rgba(7, 7, 7, 0.158);
 }
 
+/* general block */
+
 .general, .information {
     padding-top: 20px;
-}
-
-.general {
-    /* background-color: rgba(7, 7, 7, 0.082);
-    height: 100%;
-    padding: 1%; */
 }
 
 .general__contact {
@@ -29,17 +25,13 @@ body {
     width: 100%;
 }
 
-.information {
-    /* background-color: rgba(7, 7, 7, 0.082); */
-    /* padding: 2%; */
-}
+/* information block */
 
 .information_block {
-    border: 1px solid black;
+    border: 1px solid rgb(116, 113, 113);
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    /* word-wrap: break-word; */
 }
 
 .information_block__name {
@@ -48,6 +40,8 @@ body {
 
 .information_block__content {
     position: relative;
+    padding: 5px;
+
 }
 
 .information_block__content__year {
@@ -59,4 +53,8 @@ body {
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+}
+
+.information_block__content__img {
+    width: 100%;
 }
