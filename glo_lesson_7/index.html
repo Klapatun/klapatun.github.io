@@ -4,85 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Истинная королева - Екатерина Арагонская</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            
-        </div>
-    </div>
-
-
     <header class="header">
         <div class="container">
-            <div class="header-img">
-                <img src="img/header.png" alt="header">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-5">
+                    <img src="img/header.png" alt="book">
+                </div>
+                <!-- /.col-5 -->
+                <div class="col-12 col-lg-7">
+                    <div class="header-text">
+                        <h1 class="header-text__title">Истинная королева</h1>
+                        <div class="header-text__subtitle">Екатерина Арагонская</div>
+                        <p class="header-text__descr">
+                            "Екатерина Арагонская" - это первый роман популярного автора и известного историка
+                            Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет
+                            посвящена одной из жен короля Генриха VIII.
+                        </p>
+                        <div class="header-text__price">399 р.</div>
+                        <div class="header-text__buttons">
+                            <button class="button">Купить</button>
+                            <button class="button button-o">Узнать подробнее</button>
+                        </div>
+                    </div>
+                    <!-- /.header-text -->
+                </div>
+                <!-- /.col-7 -->
             </div>
-            <!-- /.header-img -->
-            <div class="header-text">
-
-                <h1 class="header-text__title">Истинная королева</h1>
-                <div class="header-text__subtitle">Екатерина Арагонская</div>
-                <p class="header-text__descr">«Екатерина Арагонская» — это первый роман 
-                    популярного автора и известного историка Элисон Уэйр, решившей создать
-                    драматическую серию, в которой каждая книга будет посвящена одной из
-                    жен короля Генриха VIII.
-                </p>
-
-                <div class="header-text__price">399 р.</div>
-
-                <button class="button">Купить</button>
-                <button class="button button-o">Узнать подробнее</button>
-            </div>
-            <!-- /.header-text -->
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </header>
-    <!-- /.header -->
 
     <section class="features">
         <div class="container">
             <h2 class="section-title">Доставка и оплата</h2>
-            <!-- /.section-title -->
-
-            <div class="features-wrap">
-                <div class="features-block">
-                    <div class="features-block__img">
-                        <img src="img/Shopping cart.png" alt="shopping_cart">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="features__img">
+                        <img src="img/Shopping cart.png" alt="cart">
                     </div>
-                    <div class="features-block__text">Бесплатная доставка <br> 381 магазин в сети</div>
-                </div>
-                <!-- /.features-block -->
-    
-                <div class="features-block">
-                    <div class="features-block__img">
-                        <img src="img/Credit card.png" alt="credit_card">
+                    <div class="features__text">
+                        Бесплатная доставка <br>
+                        381 магазин в сети
                     </div>
-                    <div class="features-block__text">Оплата онлайн или <br> наличными при получении</div>
                 </div>
-                <!-- /.features-block -->
-    
-                <div class="features-block">
-                    <div class="features-block__img">
-                        <img src="img/Shipped копия 2.png" alt="shipped">
+                <!-- /.col-3-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="features__img">
+                        <img src="img/Credit card.png" alt="card">
                     </div>
-                    <div class="features-block__text">Курьерская доставка: <br> от 2000 р. – бесплатно</div>
-                </div>
-                <!-- /.features-block -->
-    
-                <div class="features-block">
-                    <div class="features-block__img">
-                        <img src="img/Mailbox.png" alt="mailbox">
+                    <div class="features__text">
+                        Оплата онлайн или <br> 
+                        наличными при получении
                     </div>
-                    <div class="features-block__text">Почтой России – <br> в любую точку страны</div>
                 </div>
-                <!-- /.features-block -->
-
+                <!-- /.col-3-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="features__img">
+                        <img src="img/Shipped копия 2.png" alt="cart">
+                    </div>
+                    <div class="features__text">
+                        Курьерская доставка: <br> 
+                        от 2000 р. – бесплатно
+                    </div>
+                </div>
+                <!-- /.col-3-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="features__img">
+                        <img src="img/Mailbox.png" alt="cart">
+                    </div>
+                    <div class="features__text">
+                        Почтой России – <br> 
+                        в любую точку страны
+                    </div>
+                </div>
+                <!-- /.col-3-->
             </div>
-            <!-- /.features-wrap -->
-
+            <!-- /.row -->
         </div>
     </section>
     <!-- /.features -->
@@ -90,80 +92,61 @@
     <section class="customers">
         <div class="container">
             <h2 class="section-title">Кто уже купил эту книгу</h2>
-            <!-- /.section-title -->
-
-            <div class="customers-wrap">
-                <div class="customer-block">
-                    <div class="customer-block__img">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo1.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo2.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo3.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo4.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo5.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo6.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo7.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
-                <div class="customer-block">
-                    <div class="customer-block__img">
+                <!-- /.col-3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="customer__img">
                         <img src="img/photo8.png" alt="photo">
                     </div>
-                    <!-- /.customer-block__img -->
                 </div>
-                <!-- /.customer-block -->
-
+                <!-- /.col-3 -->
             </div>
-            <!-- /.customers-wrap -->
-
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
     <!-- /.customers -->
-
+    
 </body>
 </html>
